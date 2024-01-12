@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*==================================*/
+*{
+    font-family: 'Raleway';
+}
+/*==================================*/
+
+body{
+    background-color: black;
+}
+
+h2{
+
+    font-weight: 700px;
+    font-size: 32px;
+
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    
+    color: #33A8DB;
+}
+
+/*==================================*/
+
+/*Header Style*/
+
+.banner{
+   
+    max-width: 1920px;
+    height: 605px;
+    
+    margin: auto;
+
+    border-bottom: 1px solid #33A8DB;
+    border-top: 1px solid #33A8DB;
+
+    background: linear-gradient(rgba(0, 0, 0, .95), rgba(0, 0, 0, 0)),
+                linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .95)),
+                url(../images/banner.png)
+                0px 10px/ cover
+                no-repeat
+                scroll
+                padding-box
+                #33A8DB;
+
+         
+}
+
+/*==================================*/
+/*Banner style*/
+
+.banner-content{
+
+    width: 510px;
+    height: 500px;
+
+    margin: 56px auto 0px auto;
+}
+
+/*==================================*/
+/*Logo style*/
+
+.logo{
+    width: 268px;
+    height: 268px;
+
+    margin: auto;
+    border-radius: 50%;
+
+    background: rgba(0, 0, 0, .3);
+}
+
+.logo [title ^= "Logotipo"]{
+    
+    width: 100%;
+    height: 100%;
+
+    object-position: center;
+    object-fit: contain;
+}
+
+/*==================================*/
+/*Title banner*/
+
+.banner-content h1{
+
+    background: linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    color: transparent;
+
+    font-weight: 900;
+    font-size: 40px;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    
+}
+
+.banner-content p{
+
+    color: white;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+
+    font-weight: 400;
+    font-size: 19px;
+
+    text-align: center;
+}
+
+.banner button{
+
+    width: 326px;
+    height: 57px;
+
+    margin: 0px 18%;
+    
+    background-color: transparent;
+    color: #33A8DB;
+
+    font-weight: 900;
+    font-size: 16px;
+
+    text-transform: uppercase;
+
+    border: 2px solid #1472B7;
+}
+
+/*==================================*/
+/*Course content*/
+
+#course-content{
+
+    max-width: 1920px;
+    height: 500px;
+
+    padding: 100px 0px 0px 0px;
+    margin: auto;
+
+    border-bottom: 1px solid #33A8DB;
+
+    text-align: center;
+
+    color: white;
+}
+
+#course-content p{
+
+    max-width: 792px;
+    margin: auto;
+
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#course-content .module{
+
+    width: 535px;
+
+    background: #252525;
+
+    margin: 20px auto;
+    padding: 15px 0px;
+
+    border: 1px solid #33A8DB;
+    border-radius: 50px;
+
+    box-shadow: inset -5px 3px 10px rgba(0, 0, 0, 0.9);
+}
+
+#course-content .module span{
+
+    color: #33A8DB;
+}
+
+/*==================================*/
+/*Transform World*/
+
+#transform-world{
+
+    border-bottom: 1px solid #33A8DB;
+    
+    max-width: 1920px;
+    height: 363px;
+
+    margin: auto;
+
+    background: url("../images/woman-code.png")
+                center/ 150%
+                no-repeat
+                scroll
+                padding-box;
+
+    color:white;
+}
+
+#transform-world p{
+
+    width: 244px;
+
+    margin: 0px;
+    padding: 7% 0px 0px 10%;
+
+    font-weight: 900;
+    font-size: 40px;
+
+    text-transform: lowercase;
+    text-shadow: 3px 3px 0px #33A8DB;
+
+
+}
+
+/*==================================*/
+/*Professional Challenges*/
+
+#professional-challenges{
+
+    max-width: 1920px;
+    height: 700px;
+    margin: auto;
+
+    padding: 100px 0px 0px 0px;
+    border-bottom: 1px solid #33A8DB;
+
+    text-align: center;
+    color: white;
+}
+
+#professional-challenges p{
+    
+    max-width: 792px;
+    
+    padding: 20px 0px 0px 0px;
+    margin: auto;
+
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#professional-challenges h2{
+
+    padding: 0px 0px 30px 0px;
+
+    font-size: 32px;
+    font-weight: 700;
+
+    max-width: 746px;
+    margin: auto;
+}
+
+/*==================================*/
+/*Footer*/
+
+footer{
+
+    background: linear-gradient(rgba(0,0,0,0), rgba(51, 169, 219, 0.2));
+
+    max-width: 1920px;
+    height: 170px;
+    margin: auto;
+    
+    padding: 0px;
+}
+
+footer .dio-logo{
+
+    width: 100%;
+    height: 60%;
+
+    object-fit: none;
+    object-position: bottom center;
+}
+
+footer p{
+
+    color: white;
+
+    max-width: 792px;
+    margin: auto;
+
+    font-weight: 400;
+    font-size: 16px;
+
+    text-align: center;
+}
+
+footer a{
+
+    color: #33A8DB;
+
+    font-weight: bolder;
+    text-decoration: none;
+}
